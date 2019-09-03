@@ -12,8 +12,10 @@ public class HomePage extends BaseConfig {
 
         //Catching web elements
         WebElement pageTitle = getWebDriver().findElement(By.className("site-title"));
+        WebElement entryContent = getWebDriver().findElement(By.className("entry-content"));
 
         //Assertions
         Assert.assertEquals("Automation Test Page",pageTitle.getText());
+        Assert.assertEquals("Bienvenido(a) a WordPress. Esta es tu primera entrada. Edítala o bórrala ¡y comienza a publicar!",entryContent.getText());
     }
 }

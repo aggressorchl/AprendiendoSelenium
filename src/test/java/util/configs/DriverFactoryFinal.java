@@ -1,6 +1,6 @@
 package util.configs;
 
-import entities.DriversEnum;
+import util.data.DriversEnum;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
