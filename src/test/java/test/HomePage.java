@@ -18,6 +18,9 @@ public class HomePage extends BaseConfig {
         //Assertions
         Assert.assertEquals("Automation Test Page",pageTitle.getText());
         Assert.assertEquals("Bienvenido(a) a WordPress. Esta es tu primera entrada. Edítala o bórrala ¡y comienza a publicar!",entryContent.getText());
+
         searchBar.sendKeys("UWU");
+        searchBar.clear();
+        searchBar.sendKeys("ewe");
     }
 }
