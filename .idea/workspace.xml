@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4677279f-88c1-4363-8d98-c5f66bf644f6" name="Default Changelist" comment="">
+    <list default="true" id="4677279f-88c1-4363-8d98-c5f66bf644f6" name="Default Changelist" comment="Segundo commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CommentPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources/drivers/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/HomePage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +24,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="176">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/CommentPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,14 +88,8 @@
         <option value="$PROJECT_DIR$/src/test/java/util/data/DriversEnum.java" />
         <option value="$PROJECT_DIR$/src/test/java/entities/DriversEnum.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/configs/DriverFactoryFinal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/CommentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/HomePage.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -95,8 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +114,11 @@
             <path>
               <item name="AprendiendoSelenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="AprendiendoSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AprendiendoSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AprendiendoSelenium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -129,37 +141,13 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AprendiendoSelenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AprendiendoSelenium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AprendiendoSelenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AprendiendoSelenium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AprendiendoSelenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AprendiendoSelenium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +178,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HomePage">
+  <component name="RunManager" selected="JUnit.CommentPage.CommentPage">
+    <configuration name="CommentPage.CommentPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AprendiendoSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CommentPage" />
+      <option name="METHOD_NAME" value="CommentPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AprendiendoSelenium" />
       <option name="PACKAGE_NAME" value="test" />
@@ -237,6 +241,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommentPage.CommentPage" />
         <item itemvalue="JUnit.HomePage" />
         <item itemvalue="JUnit.HomePage.testHomePage" />
       </list>
@@ -302,39 +307,46 @@
       <option name="project" value="LOCAL" />
       <updated>1567540386624</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Segundo commit">
+      <created>1567540900546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567540900546</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePage - 2019.09.03 at 12h 47m 17s.xml">
+    <history-entry file="HomePage_testHomePage - 2019.09.04 at 13h 03m 26s.xml">
+      <configuration name="HomePage.testHomePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomePage_testHomePage - 2019.09.04 at 13h 46m 24s.xml">
+      <configuration name="HomePage.testHomePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomePage_testHomePage - 2019.09.04 at 13h 47m 28s.xml">
+      <configuration name="HomePage.testHomePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomePage_testHomePage - 2019.09.04 at 18h 19m 06s.xml">
+      <configuration name="HomePage.testHomePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomePage_testHomePage - 2019.10.09 at 12h 45m 50s.xml">
+      <configuration name="HomePage.testHomePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomePage - 2019.10.09 at 12h 46m 35s.xml">
       <configuration name="HomePage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomePage - 2019.09.03 at 12h 49m 40s.xml">
+    <history-entry file="HomePage - 2019.10.09 at 12h 51m 37s.xml">
       <configuration name="HomePage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomePage - 2019.09.03 at 12h 50m 59s.xml">
+    <history-entry file="HomePage - 2019.10.09 at 12h 51m 59s.xml">
       <configuration name="HomePage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomePage - 2019.09.03 at 13h 16m 04s.xml">
+    <history-entry file="HomePage - 2019.10.09 at 12h 52m 33s.xml">
       <configuration name="HomePage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomePage - 2019.09.03 at 13h 16m 29s.xml">
-      <configuration name="HomePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomePage - 2019.09.03 at 13h 31m 16s.xml">
-      <configuration name="HomePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomePage - 2019.09.03 at 13h 43m 33s.xml">
-      <configuration name="HomePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomePage - 2019.09.03 at 13h 48m 56s.xml">
-      <configuration name="HomePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomePage - 2019.09.03 at 15h 51m 22s.xml">
-      <configuration name="HomePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomePage - 2019.09.03 at 16h 05m 02s.xml">
-      <configuration name="HomePage" configurationId="JUnit" />
+    <history-entry file="CommentPage_CommentPage - 2019.10.09 at 12h 52m 57s.xml">
+      <configuration name="CommentPage.CommentPage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -350,7 +362,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,11 +372,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34013605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39795917" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.32993197" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3282313" />
@@ -380,7 +392,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
+    <MESSAGE value="Segundo commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -432,57 +445,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/entities/Driver.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/configs/BaseConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/configs/DriverFactoryFinal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="136">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/data/DriversEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/CommentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
