@@ -30,7 +30,7 @@ public class HomePage extends BaseConfig {
         Assert.assertEquals("Bienvenido(a) a WordPress. Esta es tu primera entrada. Edítala o bórrala ¡y comienza a publicar!",entryContent.getText());
         Assert.assertEquals("1 Comentario\n" + "en ¡Hola mundo!", getCommentLinks().getText());
 
-        searchBar.sendKeys("UWU");
+        searchBar.sendKeys("UWU 3");
 
         Assert.assertEquals("Entradas recientes",widgetTitle.getText());
         Assert.assertEquals("¡Hola mundo!",widgetLinkText.getText());
